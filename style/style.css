@@ -1,0 +1,14 @@
+* {
+    outline: 1px solid red;
+}
+
+body {
+    background-color: #1d2d3c;
+}
+.navbar {
+    background-color: #06131f;
+}
+
+.disc-card {
+    background-color: #112030;
+}
