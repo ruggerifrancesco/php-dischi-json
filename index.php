@@ -16,6 +16,7 @@
 </head>
 <body>
     <script src="./script/script.js" type="module"></script>
+    
     <div id="app">
         {{ message }}
     </div>
