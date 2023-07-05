@@ -1,4 +1,5 @@
 const { createApp } = Vue
+import axios from 'axios';
 
 createApp({
     data() {
@@ -26,6 +27,6 @@ createApp({
         }
     },
     created() {
-        this.axiosCallApi(apiUrl)
+        this.axiosCallApi(this.apiUrl);
     },
 }).mount('#app')
