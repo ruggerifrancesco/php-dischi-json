@@ -30,8 +30,10 @@
         </header>
 
         <main>
-            <article v-for="(disc, index) in discList" :key="index">
-                disc
+            <article class="disc-card" v-for="(disc, index) in discList" :key="index">
+                <div class="poster-wrapper">
+                    <img :src="disc.poster" alt="">
+                </div>
             </article>
         </main>
     </div>

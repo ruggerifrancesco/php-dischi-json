@@ -5,10 +5,22 @@
 body {
     background-color: #1d2d3c;
 }
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-left: 3rem;
+}
 .navbar {
     background-color: #06131f;
 }
 
 .disc-card {
     background-color: #112030;
+    width: calc((100% / 3) - 3rem);
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    border-radius: 0.5rem;
+    color: white;
 }
