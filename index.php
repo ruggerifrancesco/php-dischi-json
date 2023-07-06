@@ -21,9 +21,9 @@
     <div id="app">
         <header>
             <nav class="navbar">
-                <div class="container">
+                <div class="container logo-container">
                   <a class="navbar-brand" href="#">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+                    <img src="./assets/spotify-logo.png" alt="Bootstrap" width="30" height="24">
                   </a>
                 </div>
             </nav>
@@ -33,6 +33,11 @@
             <article class="disc-card" v-for="(disc, index) in discList" :key="index">
                 <div class="poster-wrapper">
                     <img :src="disc.poster" alt="">
+                </div>
+                <div class="disc-info">
+                    <h3>{{ disc.title }}</h3>
+                    <span>{{ disc.author }}</span>
+                    <h5>{{ disc.year }}</h5>
                 </div>
             </article>
         </main>
