@@ -21,9 +21,9 @@
     <div id="app">
         <header>
             <nav class="navbar">
-                <div class="container logo-container">
+                <div class="container">
                   <a class="navbar-brand" href="#">
-                    <img src="./assets/spotify-logo.png" alt="Bootstrap" width="30" height="24">
+                    <img src="./assets/spotify-logo.png" alt="Spotify Logo">
                   </a>
                 </div>
             </nav>
