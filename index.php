@@ -32,7 +32,7 @@
         <main>
             <article class="disc-card" v-for="(disc, index) in discList" :key="index">
                 <div class="poster-wrapper">
-                    <img :src="disc.poster" alt="">
+                    <img :src="disc.poster" :alt="disc.title">
                 </div>
                 <div class="disc-info">
                     <h3>{{ disc.title }}</h3>
